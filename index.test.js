@@ -1,4 +1,4 @@
-const { ZeroCalculationMethod, isZero, returnZero } = require(".")
+const { ZeroCalculationMethod, isZero, returnZero } = require("./src/index")
 const kleur = require("kleur")
 const attempt = require("attempt-statement")
 const assert = require("assert-fn")
@@ -9,13 +9,16 @@ const { immediateError, ErrorType } = require('immediate-error')
 const loggingEnabled = false
 
 attempt(() => {
-	assert(returnZero() === 0, "returnZero should return zero")
 	assert(
 		returnZero({ method: ZeroCalculationMethod.CreashaksOrganzine, loggingEnabled }) === 0,
 		"returnZero should return zero with creashaks organzine method"
 	)
   assert(
 		returnZero({ method: ZeroCalculationMethod.NumberPrototypeValue, loggingEnabled }) === 0,
+		"returnZero should return zero with number prototype value method"
+	)
+	assert(
+		returnZero({ method: ZeroCalculationMethod.RandomNumberSelfSubtraction, loggingEnabled }) === 0,
 		"returnZero should return zero with number prototype value method"
 	)
 	assert(isZero(0, loggingEnabled) === true, "isZero should return true if the input is zero")

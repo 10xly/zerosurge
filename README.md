@@ -3,7 +3,7 @@
 
 <sup><sub><i>(i apologize for the terrible logo.)</i></sub></sup>
 
-> The fastest zero utility library on the internet.
+> The best zero utility library on the internet.
 
 Tired of painstakingly trying to find the character 0 on your keyboard and then pushing the button, or don't remember how to use the number zero in JavaScript? Well, this library is the new way to zero. ZeroSurge.js is the future!
 
@@ -34,6 +34,7 @@ $ pnpm add zerosurge
 This enum defines the calculation methods available for the `returnZero` function in the library:
 - **CreashaksOrganzine**: Method 1 for zero calculation. This uses the string "creashaks organzine" and uses the Minecraft seed input algorithm to make the number zero from it.
 - **NumberPrototypeValue**: Method 2 for zero calculation. This uses the `Number` class prototype to return zero.
+- **RandomNumberSelfSubtraction**: Method 3 for zero calculation. This subtracts a random number by itself.
 
 ### Functions
 
@@ -78,8 +79,4 @@ When `loggingEnabled` is set to `true`, the library will log relevant messages t
 ## Contributing
 Contributions welcome. You can contribute by opening a pull request or issue at our github repository.
 
-## License
-Zerosurge is licensed under the 10xGPWTHPL License. See the [LICENSE](LICENSE) file for more details.
-
 ## made with HEAVY BLACK HEART U+2764 ❤❤❤❤
-## 10xGPWTHPL Licensed

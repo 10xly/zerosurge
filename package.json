@@ -1,10 +1,11 @@
 {
   "name": "zerosurge",
-  "version": "13.1.0",
+  "version": "15.0.0",
   "description": "The future is here.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node index.test"
+    "test": "node index.test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -108,42 +109,28 @@
     "95-keywords-is-alot"
   ],
   "author": "tj-commits <thefoxjones@gmail.com>",
-  "license": "10xGPWTHPL",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/10xEngineersQualityProgramming/ZeroSurge.js/issues"
   },
   "homepage": "https://github.com/10xEngineersQualityProgramming/ZeroSurge.js#readme",
   "dependencies": {
-    "@extremejs/utils": "^1.0.0-beta.22",
-    "@not-js/not": "^1.0.0",
-    "are-strictly-equal": "^1.0.0",
+    "betterloggingwithecho": "^1.0.0",
+    "chalk": "^4.1.2",
+    "immediate-error": "^6.2.0",
+    "minecraft-seed-input": "^1.0.0",
+    "random-number": "^0.0.9",
+    "string-creashaks-organzine": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/get-intrinsic": "^1.2.3",
+    "@types/node": "^24.10.0",
+    "@types/random-number": "^0.0.4",
     "assert-fn": "^1.0.1",
     "attempt-statement": "^1.1.0",
-    "deep-equal": "^2.2.3",
-    "exit": "^0.1.2",
-    "falsejs": "^1234.56.789",
-    "get-ecmascript-type-of": "^1.0.0",
-    "get-intrinsic": "^1.2.4",
-    "if": "^2.0.0",
-    "immediate-error": "^6.1.0",
-    "integer-value-positive-one": "^1.0.2",
-    "integer-value-positive-two": "^1.0.0",
-    "is-eq-ten-thousand": "^4324803849.34298304823.328712760",
-    "is-equal": "^1.7.0",
-    "is-equal-to": "^1.1.2",
-    "is-hundred": "^0.10.0",
-    "is-hundred-thousand": "^10000000000000.10000000000000.10000000000000",
-    "is-nil": "^1.0.1",
-    "is-one": "^1.0.0",
-    "is-ten": "^0.1.0",
-    "is-thousand": "^0.0.2",
-    "is-uneven": "^1.0.0",
     "kleur": "^4.1.5",
-    "lodash.sample": "^4.2.1",
     "logtoconsole": "^1.0.7",
-    "minecraft-seed-input": "^1.0.0",
-    "none": "^1.0.0",
     "noop10": "^1.0.3",
-    "string-creashaks-organzine": "^1.0.0"
+    "typescript": "^5.9.3"
   }
 }
