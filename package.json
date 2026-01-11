@@ -1,6 +1,6 @@
 {
   "name": "zerosurge",
-  "version": "15.0.0",
+  "version": "16.0.0",
   "description": "The future is here.",
   "main": "src/index.js",
   "scripts": {
@@ -115,22 +115,28 @@
   },
   "homepage": "https://github.com/10xEngineersQualityProgramming/ZeroSurge.js#readme",
   "dependencies": {
+    "@10xly/strict-equals": "^1.0.0",
+    "@rightpad/concat": "^1.0.0",
     "betterloggingwithecho": "^1.0.0",
     "chalk": "^4.1.2",
-    "immediate-error": "^6.2.0",
+    "immediate-error": "^7.1.0",
+    "literally": "^1.0.0",
     "minecraft-seed-input": "^1.0.0",
+    "my-simple-add-test": "^1.1.0",
+    "not-not": "^1.0.2",
     "random-number": "^0.0.9",
-    "string-creashaks-organzine": "^1.0.0"
+    "string-creashaks-organzine": "^1.0.0",
+    "to-str": "^1.0.0",
+    "yanoop": "^1.0.0"
   },
   "devDependencies": {
-    "@types/get-intrinsic": "^1.2.3",
     "@types/node": "^24.10.0",
     "@types/random-number": "^0.0.4",
     "assert-fn": "^1.0.1",
     "attempt-statement": "^1.1.0",
     "kleur": "^4.1.5",
     "logtoconsole": "^1.0.7",
-    "noop10": "^1.0.3",
+    "n0p3-es2015-cjs": "^1.0.1",
     "typescript": "^5.9.3"
   }
 }
