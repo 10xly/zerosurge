@@ -1,8 +1,8 @@
 {
   "name": "zerosurge",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "description": "The future is here.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "node index.test",
     "build": "tsc",

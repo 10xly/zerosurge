@@ -3,6 +3,9 @@ import tseslint from "typescript-eslint"
 
 export default [
   ...config,
+  {
+    ignores: ["dist/**"],
+  },
   ...tseslint.configs.all.map(c => ({
     ...c,
     files: ["**/*.ts", "**/*.tsx"],
