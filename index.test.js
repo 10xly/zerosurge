@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const { ZeroCalculationMethod, isZero, returnZero } = require("./dist/index")
 const kleur = require("kleur")
 const attempt = require("attempt-statement")
