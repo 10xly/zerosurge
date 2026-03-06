@@ -2,3 +2,4 @@ node_modules
 phone-number-log.txt
 old.js
 dist/**
+package-lock.json
