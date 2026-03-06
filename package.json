@@ -137,6 +137,8 @@
     "kleur": "^4.1.5",
     "logtoconsole": "^1.0.7",
     "n0p3-es2015-cjs": "^1.0.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "@10xly/eslint-config": "*",
+    "eslint": "^9.39.3"
   }
 }
